@@ -1,5 +1,5 @@
 import React,{ useCallback,useState } from 'react';
-import { StyleSheet, Text, View, ScrollView, TextInput, Button, StatusBar } from 'react-native';
+import { Text, View, ScrollView, TextInput, Button, StatusBar} from 'react-native';
 import DropDownPicker from 'react-native-dropdown-picker';
 import RadioButton from './components/RadioButton';
 import Header from './components/Header';
@@ -91,7 +91,7 @@ export default function App() {
 
   return (
     <ScrollView style={styles.container}>
-      <StatusBar style={styles.statusbar}/>
+      <StatusBar barStyle='dark-content'></StatusBar>
       <Header/>
       <Text style={styles.title}>Weight</Text>
       <TextInput onChangeText={text => setWeight(text)} keyboardType='decimal-pad' style={styles.input} placeholder="Your weight in kilograms"></TextInput>

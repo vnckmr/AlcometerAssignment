@@ -66,8 +66,5 @@ export default StyleSheet.create({
         marginRight: 20,
         borderRadius: 8,
         padding: 5,
-      },
-      statusbar: {
-        color: '#000'
-      },
+      }
 })
