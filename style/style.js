@@ -7,12 +7,26 @@ export default StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff',
       },
+
+      //header
+      header: {
+        fontSize: 35,
+        marginBottom: 40,
+        marginTop: 20,
+        alignSelf: 'center',
+        fontWeight: 'bold',
+        color: '#2D728F',
+      },
+
+      //
       title: {
         fontWeight: 'bold',
         marginLeft: 20,
         marginBottom: 10,
         fontSize: 16,
       },
+
+      //result
       result: {
         alignSelf: 'center',
         fontSize: 30,
@@ -45,26 +59,77 @@ export default StyleSheet.create({
         marginBottom: 40,
         marginTop: 30,
       },
+
+      //bottle dropdownpicker 
       picker: {
-        marginLeft: 20,
+        alignSelf: 'center',
         marginBottom: 30,
         width: 335,
         borderColor: "#a8a8a8",
       },
+
+      //weight input
       input: {
         borderColor: "#a8a8a8",
         borderWidth: 1,
-        marginLeft: 20,
+        alignSelf: 'center',
         marginBottom: 30,
-        marginRight: 20,
         padding: 10,
         borderRadius: 8,
+        width: 335,
       },
+
+      //calculate button
       button: {
         backgroundColor: '#2D728F',
-        marginLeft: 20,
-        marginRight: 20,
         borderRadius: 8,
         padding: 5,
-      }
+        alignSelf: 'center',
+        width: 335,
+      },
+
+      //RadioButton
+      radioButtonContainer: {
+        flexDirection: "row",
+        alignItems: "center",
+        marginBottom: 15,
+        marginLeft: 21,
+        justifyContent: 'space-between',
+        marginRight: 20,
+      },
+      radioButton: {
+        height: 25,
+        width: 25,
+        borderRadius: 100,
+        borderWidth: 2,
+        borderColor: "#000",
+        alignItems: 'center',
+        justifyContent: 'center',
+      },
+      radioButtonIcon: {
+        height: 15,
+        width: 15,
+        borderRadius: 100,
+        backgroundColor: "#000",
+        alignItems: 'center',
+        justifyContent: 'center',
+      },
+      label: {
+        fontSize: 14,
+      },
+      text: {
+        lineHeight: 30,
+        fontSize: 20,
+        marginVertical: 5,
+        
+      },
+
+      //footer
+      footer: {
+        fontSize: 12,
+        marginTop: 30,
+        alignSelf: 'center',
+        fontWeight: '200',
+        color: '#444',
+      },
 })

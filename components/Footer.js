@@ -1,22 +1,13 @@
 import React from 'react';
-import { Text, View, StyleSheet  } from 'react-native';
+import { Text, View } from 'react-native';
+import styles from '../style/style';
 
 export default function Footer() {
     return (
         <View>
-            <Text style={styles.author}>
+            <Text style={styles.footer}>
                 Author: Vivien Eckmaier
             </Text>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    author: {
-        fontSize: 12,
-        marginTop: 30,
-        alignSelf: 'center',
-        fontWeight: '200',
-        color: '#444',
-      },
-})

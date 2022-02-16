@@ -4,5 +4,6 @@
   "packagerPort": 19000,
   "expoServerNgrokUrl": "https://da-cdj.anonymous.alcometerassignment.exp.direct",
   "packagerNgrokUrl": "https://packager.da-cdj.anonymous.alcometerassignment.exp.direct",
-  "ngrokPid": 20316
+  "ngrokPid": 41148,
+  "webpackServerPort": 19006
 }

@@ -88,7 +88,6 @@ export default function App() {
     } 
   }
 
-
   return (
     <ScrollView style={styles.container}>
       <StatusBar barStyle='dark-content'></StatusBar>

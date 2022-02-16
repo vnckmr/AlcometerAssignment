@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import { Text, View, StyleSheet, Pressable } from 'react-native';
+import { Text, View, Pressable } from 'react-native';
+import styles from '../style/style';
 
 /**
  * @param genders
@@ -31,42 +32,3 @@ export default function RadioButton({genders, onPress}) {
     </>
   )
 }
-
-
-const styles = StyleSheet.create({
-    radioButtonContainer: {
-        flexDirection: "row",
-        alignItems: "center",
-        marginBottom: 15,
-        marginLeft: 20,
-        justifyContent: 'space-between',
-        marginRight: 20,
-      },
-      radioButton: {
-        height: 25,
-        width: 25,
-        borderRadius: 100,
-        borderWidth: 2,
-        borderColor: "#000",
-        alignItems: 'center',
-        justifyContent: 'center',
-      },
-      radioButtonIcon: {
-        height: 15,
-        width: 15,
-        borderRadius: 100,
-        backgroundColor: "#000",
-        alignItems: 'center',
-        justifyContent: 'center',
-      },
-      label: {
-        fontSize: 14,
-        
-      },
-      text: {
-        lineHeight: 30,
-        fontSize: 20,
-        marginVertical: 5,
-        
-      },
-})
